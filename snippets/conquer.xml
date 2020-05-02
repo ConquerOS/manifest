@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="conquer"
+           fetch="https://github.com/ConquerOS"
+           revision="ten" />
+ 
+  <remote  name="ConquerOS-devices"
+           fetch="https://github.com/ConquerOS-devices"
+           revision="ten" />
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="aosp"
+           revision="refs/tags/android-10.0.0_r27"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+           
+  <!-- Build -->
+  <project path="build/make" name="build_make" remote="conquer" >
+    	<copyfile src="core/root.mk" dest="Makefile" />
+  	  <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+   	 <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    	<linkfile src="core" dest="build/core" />
+	    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+	    <linkfile src="target" dest="build/target" />
+  	  <linkfile src="tools" dest="build/tools" />
+    </project>
+	<project path="build/soong" name="build_soong" remote="conquer" >
+ 	   <linkfile src="root.bp" dest="Android.bp" />
+	    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+   </project>
+   <project path="build/blueprint" name="build_blueprint" remote="conquer"/>
+   
+   <!-- Manifest -->
+   	<project path="manifest" name="manifest" remote="conquer"/>
+	
+
+   <!-- General Repo -->
+       <project path="development" name="development" remote="conquer"/>
+       <project path="art" name="art" remote="conquer"/>
+       <project path="libcore" name="libcore" remote="conquer"/>
+       <project path="vendor/conquer" name="vendor_conquer"  remote="conquer"/>
+	   <project path="vendor/conquerui" name="vendor_conquerui"  remote="conquer"/>
+       <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="conquer"/>
+       <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom-opensource_core-utils" remote="conquer"/>
+       <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="conquer"/>
+       <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="conquer"/>
+       <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="conquer"/>
+   
+   <!-- Frameworks -->
+       <project path="frameworks/base" name="frameworks_base" remote="conquer"/>
+       <project path="frameworks/native" name="frameworks_native" remote="conquer"/>
+       <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="conquer"/>
+       <project path="frameworks/av" name="frameworks_av" remote="conquer" />
+
+   <!-- Device -->
+       <project path="device/qcom/common" name="device_qcom_common" remote="conquer"/>
+       <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="conquer"/>
+       <project path="device/conquer/sepolicy" name="device_conquer_sepolicy" remote="conquer"/>
+       
+   <!-- External -->
+       <project path="external/selinux" name="external_selinux" remote="conquer"/>
+       <project path="external/libunwind_llvm" name="external_libunwind_llvm" remote="conquer"/> 
+
+   <!-- System -->
+       <project path="system/bt" name="system_bt" remote="conquer"/>
+       <project path="system/core" name="system_core" remote="conquer"/>
+	   <project path="system/netd" name="system_netd" remote="conquer"/>
+	   <project path="system/sepolicy" name="system_sepolicy" remote="conquer"/>
+       <project path="system/vold" name="system_vold" remote="conquer"/>
+       
+   <!-- Bionic -->
+       <project path="bionic" name="bionic" remote="conquer"/>
+   
+   <!-- Hardware -->
+       <project path="hardware/libhardware" name="hardware_libhardware" remote="conquer"/>
+	   <project path="hardware/interfaces" name="hardware_interfaces" remote="conquer"/>
+       <project path="hardware/conquer/interfaces" name="hardware_conquer_interfaces" remote="conquer"/>
+   
+   <!-- Prebuilts -->
+       <project path="prebuilts/r8" name="prebuilts_r8" remote="conquer"/>
+       <project path="prebuilts/tools-conquer" name="prebuilts_tools-conquer" remote="conquer"/>
+   
+   <!-- Packages -->
+       <project path="packages/services/Telephony" name="packages_services_Telephony" remote="conquer"/>
+       <project path="packages/apps/Settings" name="packages_apps_Settings" remote="conquer"/>    
+
+   <!-- Recovery -->
+       <project path="bootable/recovery" name="bootable_recovery" remote="conquer"/>
+   
+   <!-- SDClang -->
+       <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="github" revision="quartz" />
+    
+</manifest>
