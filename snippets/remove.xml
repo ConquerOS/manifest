@@ -24,6 +24,7 @@
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
   <remove-project name="platform/vendor/qcom-opensource/fst-manager"/>

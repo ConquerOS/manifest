@@ -76,8 +76,8 @@
    
    <!-- Hardware -->
        <project path="hardware/libhardware" name="hardware_libhardware" remote="conquer"/>
-	   <project path="hardware/interfaces" name="hardware_interfaces" remote="conquer"/>
-       <project path="hardware/conquer/interfaces" name="hardware_conquer_interfaces" remote="conquer"/>
+	     <project path="hardware/interfaces" name="hardware_interfaces" remote="conquer"/>
+       <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="conquer"/>
    
    <!-- Prebuilts -->
        <project path="prebuilts/r8" name="prebuilts_r8" remote="conquer"/>
