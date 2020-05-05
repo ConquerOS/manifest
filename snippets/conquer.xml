@@ -58,6 +58,7 @@
    <!-- Device -->
        <project path="device/qcom/common" name="device_qcom_common" remote="conquer"/>
        <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="conquer"/>
+	   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="conquer"/>
        <project path="device/conquer/sepolicy" name="device_conquer_sepolicy" remote="conquer"/>
        
    <!-- External -->
@@ -75,8 +76,10 @@
        <project path="bionic" name="bionic" remote="conquer"/>
    
    <!-- Hardware -->
+       <project path="hardware/conquer/interfaces" name="hardware_conquer_interfaces" remote="conquer"/>
        <project path="hardware/libhardware" name="hardware_libhardware" remote="conquer"/>
-	     <project path="hardware/interfaces" name="hardware_interfaces" remote="conquer"/>
+	   <project path="hardware/interfaces" name="hardware_interfaces" remote="conquer"/>
+	   <project path="hardware/qcom/theraml" name="hardware_qcom_thermal" remote="conquer"/>
        <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="conquer"/>
    
    <!-- Prebuilts -->
