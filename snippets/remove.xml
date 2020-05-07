@@ -44,6 +44,7 @@
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <remove-project name="platform/vendor/qcom-opensource/data-kernel" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
+  <remove-project name="platform/frameworks/opt/net/wifi" />
 
   <!-- Useless repos -->
   <remove-project name="abl/tianocore/edk2"/>

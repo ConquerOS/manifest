@@ -51,10 +51,11 @@
        <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="conquer"/>
    
    <!-- Frameworks -->
+       <project path="frameworks/av" name="frameworks_av" remote="conquer" />
        <project path="frameworks/base" name="frameworks_base" remote="conquer"/>
        <project path="frameworks/native" name="frameworks_native" remote="conquer"/>
        <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="conquer"/>
-       <project path="frameworks/av" name="frameworks_av" remote="conquer" />
+       <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="conquer"/>
 
    <!-- Device -->
        <project path="device/qcom/common" name="device_qcom_common" remote="conquer"/>
