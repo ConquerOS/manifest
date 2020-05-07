@@ -48,6 +48,7 @@
        <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="conquer"/>
        <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="conquer"/>
        <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="conquer"/>
+       <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="conquer"/>
    
    <!-- Frameworks -->
        <project path="frameworks/base" name="frameworks_base" remote="conquer"/>
