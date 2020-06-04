@@ -1,4 +1,4 @@
-![ConquerOS](https://raw.githubusercontent.com/ConquerCAF/manifest/ten/logo.png)
+![ConquerOS](https://raw.githubusercontent.com/ConquerOS/manifest/ten/logo.png)
 
 # ConquerOS 3.X
 ConquerOS is a simple CAF Based Custom ROM with additional features and UI/UX improvement to give user good experience when using it.
@@ -72,4 +72,4 @@ mka carthage -jX
 ## Notes
 - Whenever you see "-jX" the, you need to change "X" with number of your complier machine's thread number.
 - For maintainership infomation, please cask on our [Telegram group](http://t.me/ConquerOSChat).
-![ConquerOS 3.X Based on Android 10](https://raw.githubusercontent.com/ConquerCAF/manifest/ten/version.png)
+![ConquerOS 3.X Based on Android 10](https://raw.githubusercontent.com/ConquerOS/manifest/ten/version.png)
