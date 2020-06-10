@@ -72,6 +72,7 @@
        <project path="system/core" name="system_core" remote="conquer"/>
 	   <project path="system/netd" name="system_netd" remote="conquer"/>
 	   <project path="system/sepolicy" name="system_sepolicy" remote="conquer"/>
+       <project path="system/update_engine" name="system_update_engine" remote="conquer"/>
        <project path="system/vold" name="system_vold" remote="conquer"/>
        
    <!-- Bionic -->
