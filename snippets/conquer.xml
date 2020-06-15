@@ -8,14 +8,6 @@
   <remote  name="ConquerOS-devices"
            fetch="https://github.com/ConquerOS-devices"
            revision="ten" />
-
-  <remote  name="github"
-           fetch="https://github.com/" />
-
-  <remote  name="aosp"
-           revision="refs/tags/android-10.0.0_r27"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com" />
            
   <!-- Build -->
   <project path="build/make" name="build_make" remote="conquer" >

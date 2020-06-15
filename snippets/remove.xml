@@ -43,7 +43,6 @@
   <remove-project name="platform/art" />
   <remove-project name="platform/libcore" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
-  <remove-project name="platform/vendor/qcom-opensource/data-kernel" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/system/update_engine" />
@@ -89,5 +88,31 @@
   <remove-project name="platform/vendor/qcom/skunk"/>
   <remove-project name="platform/vendor/qcom/thulium"/>
   <remove-project name="platform/vendor/qcom/wlan"/>
+  
+    <!-- UM 4.4 series -->
+  <remove-project name="kernel/msm-4.4"/>
+  <remove-project name="platform/hardware/qcom/camera"/>
+  <remove-project name="platform/hardware/qcom/vr"/>
+  <remove-project name="platform/vendor/qcom/cobalt"/>
+  <remove-project name="platform/vendor/qcom/falcon_32"/>
+  <remove-project name="platform/vendor/qcom/falcon_64"/>
+  <remove-project name="platform/vendor/qcom/msm8937_32go"/>
+
+  <!-- UM 4.9 series -->
+  <remove-project name="kernel/msm-4.9"/>
+  <remove-project name="platform/vendor/qcom-opensource/wfd-commonsys"/>
+
+  <!-- UM 4.14 series -->
+  <remove-project name="platform/vendor/qcom-opensource/data-kernel"/>
+  <remove-project name="platform/vendor/qcom-opensource/vibrator"/>
+  <remove-project name="platform/vendor/qcom/atoll"/>
+  <remove-project name="platform/vendor/qcom/steppe"/>
+
+  <!-- UM 4.19 series -->
+  <remove-project name="kernel/build"/>
+  <remove-project name="platform/vendor/opensource/camera-kernel"/>
+  <remove-project name="platform/vendor/opensource/display-drivers"/>
+  <remove-project name="platform/vendor/opensource/video-driver"/>
+  <remove-project name="platform/vendor/qcom/kona"/>
   
 </manifest>
