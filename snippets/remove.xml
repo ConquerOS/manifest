@@ -35,6 +35,9 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/external/libunwind_llvm" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/frameworks/av" />
@@ -91,6 +94,8 @@
   <remove-project name="platform/vendor/qcom/skunk"/>
   <remove-project name="platform/vendor/qcom/thulium"/>
   <remove-project name="platform/vendor/qcom/wlan"/>
+  <remove-project name="platform/prebuilts/abi-dumps/ndk" />
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   
     <!-- UM 4.4 series -->
   <remove-project name="kernel/msm-4.4"/>
