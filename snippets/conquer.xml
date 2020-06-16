@@ -90,7 +90,8 @@
    <!-- Recovery -->
        <project path="bootable/recovery" name="bootable_recovery" remote="conquer"/>
    
-   <!-- SDClang -->
-       <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="github" revision="quartz" />
-    
+   <!-- Clang -->
+       <project path="vendor/qcom/sdclang-8.0/linux-x86" name="ThankYouMario/proprietary_vendor_qcom_sdclang-8.0_linux-x86" remote="github" revision="quartz" clone-depth="1"/>
+       <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" clone-depth="1" remote="aosp" />
+
 </manifest>
