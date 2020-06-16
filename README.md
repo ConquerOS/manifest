@@ -35,17 +35,15 @@ cd /conquer
 - Second, initialize ConquerOS Source manifest in the directory
 ```
 If you want to download full ConquerOS Source, type:
-repo init -u https://github.com/ConquerOS/manifest.git -b ten
+repo init -u git://github.com/ConquerOS/manifest.git -b ten
 
-But, if you want to do shallow download, type:
-repo init --depth=1 -u https://github.com/ConquerOS/manifest.git -b ten
-
-NOTES: Shallow download will not include full commits history.
+But, just in case you're data-friendly guy like me, type:
+repo init --depth=1 -u git://github.com/ConquerOS/manifest.git -b ten
 ```
 
 - Third, start downloading the ConquerOS Source.
 ```
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
 ```
 
 ### 4. Download device sources
