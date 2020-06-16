@@ -76,6 +76,8 @@
   <remove-project name="device/sample"/>
   <remove-project name="kernel/msm-4.14"/>
   <remove-project name="platform/hardware/qcom/thermal"/>
+  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9"/>
+  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9"/>
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/vendor/opensource/audio-kernel"/>
   <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api"/>

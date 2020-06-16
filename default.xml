@@ -845,6 +845,6 @@
   <!-- ConquerOS Mnaifests-->
   <include name="snippets/remove.xml" />
   <include name="snippets/conquer.xml" />
+  <include name="snippets/lineage.xml" />
 
 </manifest>
-
