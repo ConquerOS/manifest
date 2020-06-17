@@ -117,6 +117,7 @@
   <remove-project name="platform/vendor/qcom/steppe"/>
 
   <!-- UM 4.19 series -->
+  <remove-project name="kernel/msm-4.19"/>
   <remove-project name="kernel/build"/>
   <remove-project name="platform/vendor/opensource/camera-kernel"/>
   <remove-project name="platform/vendor/opensource/display-drivers"/>
