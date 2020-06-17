@@ -40,6 +40,7 @@
        <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="conquer"/>
        <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="conquer"/>
        <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="conquer"/>
+	   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="conquer"/>
    
    <!-- Frameworks -->
        <project path="frameworks/av" name="frameworks_av" remote="conquer" />

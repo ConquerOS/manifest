@@ -47,6 +47,7 @@
   <remove-project name="platform/libcore" />
   <remove-project name="platform/vendor/qcom-opensource/system/bt" />
   <remove-project name="platform/vendor/qcom-opensource/dataservices" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/system/update_engine" />
   <!-- Useless repos -->
