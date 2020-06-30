@@ -39,6 +39,7 @@
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SnapdragonGallery" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/frameworks/av" />
