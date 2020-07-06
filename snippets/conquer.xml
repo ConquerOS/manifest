@@ -23,6 +23,7 @@
  	   <linkfile src="root.bp" dest="Android.bp" />
 	    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
    </project>
+   <project path="build/kati" name="build_kati" remote="conquer"/>
    <project path="build/blueprint" name="build_blueprint" remote="conquer"/>
    
    <!-- Manifest -->
@@ -100,6 +101,7 @@
 	   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="conquer"/>
 	   <project path="packages/apps/ConquerSettings" name="packages_apps_ConquerSettings" remote="conquer"/>
        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="conquer"/>
+       <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="conquer"/>
 	   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="conquer"/>
        <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="conquer"/>
 	   

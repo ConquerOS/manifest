@@ -3,6 +3,7 @@
 
   <!-- Repos tracked from our org -->
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/kati" />
   <remove-project name="platform/build/soong" />
   <remove-project name="platform/frameworks/base"/>
   <remove-project name="platform/bionic"/>
@@ -45,6 +46,7 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Nfc" />  
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
