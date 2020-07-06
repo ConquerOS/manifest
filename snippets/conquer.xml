@@ -59,6 +59,7 @@
    <!-- External -->
        <project path="external/selinux" name="external_selinux" remote="conquer"/>
        <project path="external/libunwind_llvm" name="external_libunwind_llvm" remote="conquer"/> 
+	   <project path="external/skia" name="external_skia" remote="conquer"/> 
 
    <!-- System -->
        <project path="system/bt" name="system_bt" remote="conquer"/>

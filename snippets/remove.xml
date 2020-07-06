@@ -59,6 +59,8 @@
   <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/external/skia" />
+  
   <!-- Useless repos -->
   <remove-project name="abl/tianocore/edk2"/>
   <remove-project name="device/amlogic/yukawa"/>
