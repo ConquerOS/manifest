@@ -99,6 +99,7 @@
 	   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="conquer"/>
 	   <project path="packages/apps/ConquerSettings" name="packages_apps_ConquerSettings" remote="conquer"/>
        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="conquer"/>
+	   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="conquer"/>
        <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="conquer"/>
 	   
    <!-- Recovery -->
