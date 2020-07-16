@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           revision="refs/tags/android-10.0.0_r39"
+           revision="refs/tags/android-10.0.0_r40"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
@@ -846,5 +846,6 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/conquer.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/aosp.xml" />
 
 </manifest>
