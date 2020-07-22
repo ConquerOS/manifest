@@ -92,6 +92,7 @@
        <project path="packages/services/Telephony" name="packages_services_Telephony" remote="conquer"/>
 	   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="conquer"/>
 	   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="conquer"/>
+	   <project path="packages/apps/BlurView" name="packages_apps_BlurView" remote="conquer"/>
 	   <project path="packages/apps/Calendar" name="packages_apps_Calendar" remote="conquer"/>
 	   <project path="packages/apps/ConquerCamera" name="packages_apps_ConquerCamera" remote="conquer"/>
 	   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="conquer"/>
