@@ -69,5 +69,5 @@ mka carthage -jX
 
 ## Notes
 - Whenever you see "-jX" the, you need to change "X" with number of your complier machine's thread number.
-- For maintainership infomation, please cask on our [Telegram group](http://t.me/ConquerOSChat).
+- For maintainership infomation, please ask on our [Telegram group](http://t.me/ConquerOSChat).
 ![ConquerOS 3.X Based on Android 10](https://raw.githubusercontent.com/ConquerOS/manifest/ten/version.png)
