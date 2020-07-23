@@ -1,6 +1,6 @@
 ![ConquerOS](https://raw.githubusercontent.com/ConquerOS/manifest/ten/logo.png)
 
-# ConquerOS 3.X
+# ConquerOS 3.X [![Download ConquerOS](https://img.shields.io/sourceforge/dt/conqueros.svg)](https://sourceforge.net/projects/conqueros/files/latest/download)  [![Download ConquerOS](https://img.shields.io/sourceforge/dm/conqueros.svg)](https://sourceforge.net/projects/conqueros/files/latest/download)  
 ConquerOS is a simple CAF Based Custom ROM with additional features and UI/UX improvement to give user good experience when using it.
 
 ## Compilation of ConquerOS
