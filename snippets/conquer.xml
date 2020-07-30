@@ -19,9 +19,9 @@
 	    <linkfile src="target" dest="build/target" />
   	  <linkfile src="tools" dest="build/tools" />
     </project>
-	<project path="build/soong" name="build_soong" remote="conquer" >
+   <project path="build/soong" name="build_soong" remote="conquer" >
  	   <linkfile src="root.bp" dest="Android.bp" />
-	    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+	   <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
    </project>
    <project path="build/kati" name="build_kati" remote="conquer"/>
    <project path="build/blueprint" name="build_blueprint" remote="conquer"/>
@@ -98,13 +98,14 @@
 	   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="conquer"/>
 	   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="conquer"/>
 	   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="conquer"/>
-           <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="conquer"/>
+       <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="conquer"/>
 	   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="conquer"/>
 	   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="conquer"/>
 	   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="conquer"/>
 	   <project path="packages/apps/ConquerSettings" name="packages_apps_ConquerSettings" remote="conquer"/>
        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="conquer"/>
        <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="conquer"/>
+	   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="conquer"/>
 	   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="conquer"/>
        <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="conquer"/>
 	   
