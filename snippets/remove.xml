@@ -63,6 +63,7 @@
   <remove-project name="platform/frameworks/opt/net/wifi" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/external/skia" />
+  <remove-project name="platform/external/ant-wireless/ant_native" />
   
   <!-- Useless repos -->
   <remove-project name="abl/tianocore/edk2"/>
