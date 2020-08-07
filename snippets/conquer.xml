@@ -35,7 +35,8 @@
        <project path="art" name="art" remote="conquer"/>
        <project path="libcore" name="libcore" remote="conquer"/>
        <project path="vendor/conquer" name="vendor_conquer"  remote="conquer"/>
-	   <project path="vendor/conquerui" name="vendor_conquerui"  remote="conquer"/>
+       <project path="vendor/conquerui" name="vendor_conquerui"  remote="conquer"/>
+       <project path="vendor/oplauncher" name="vendor_oplauncher"  remote="conquer"/>
        <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="conquer"/>
        <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom-opensource_core-utils" remote="conquer"/>
        <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="conquer"/>
