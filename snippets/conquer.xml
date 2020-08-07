@@ -59,6 +59,7 @@
        <project path="device/conquer/sepolicy" name="device_conquer_sepolicy" remote="conquer"/>
        
    <!-- External -->
+       <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="conquer"/> 
        <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="conquer"/> 
        <project path="external/selinux" name="external_selinux" remote="conquer"/>
        <project path="external/libunwind_llvm" name="external_libunwind_llvm" remote="conquer"/> 
