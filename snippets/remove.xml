@@ -22,6 +22,7 @@
   <remove-project name="device/qcom/sepolicy" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/bootctrl" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/qcom/display" />
   <remove-project name="platform/hardware/qcom/gps" />
