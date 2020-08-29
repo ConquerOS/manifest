@@ -54,6 +54,7 @@
    <!-- Device -->
        <project path="device/qcom/common" name="device_qcom_common" remote="conquer"/>
        <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="conquer"/>
+           <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="conquer"/>
 	   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="conquer"/>
 	   <project path="device/conquer/common" name="device_conquer_common" remote="conquer"/>
        <project path="device/conquer/sepolicy" name="device_conquer_sepolicy" remote="conquer"/>
