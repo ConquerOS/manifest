@@ -830,4 +830,7 @@
   <project name="platform/vendor/qcom/wlan" path="device/qcom/wlan" revision="5b98e272c1efc8f8aeaa9c2f1a86f2bda40019ec" upstream="refs/heads/wlan-service.lnx.6.0.r8-rel"/>
   <project groups="pdk,r-fs-release" name="toolchain/pgo-profiles" revision="61efeb3302de710c2ef4142e6e80ead09714265d" upstream="refs/heads/ks-aosp.lnx.3.0.r11-rel"/>
   <project groups="pdk,pdk-cw-fs,pdk-fs,r-fs-release" name="tools/platform-compat" revision="1714fa197bd351843ab8469a79f8cecbe03d8c4c" upstream="refs/heads/ks-aosp.lnx.3.0.r11-rel"/>
+
+  <include name="snippets/conquer.xml"/>
+
 </manifest>
