@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- google/generic/unused devices -->
+  <remove-project name="device/amlogic/yukawa"/>
+  <remove-project name="device/amlogic/yukawa-kernel"/>
+  <remove-project name="device/common"/>
+  <remove-project name="device/generic/armv7-a-neon"/>
+  <remove-project name="device/generic/arm64"/>
+  <remove-project name="device/generic/mini-emulator-arm64"/>
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
+  <remove-project name="device/generic/mini-emulator-x86"/>
+  <remove-project name="device/generic/mini-emulator-x86_64"/>
+  <remove-project name="device/generic/qemu"/>
+  <remove-project name="device/generic/x86"/>
+  <remove-project name="device/generic/x86_64"/>
+  <remove-project name="device/generic/uml"/>
+  <remove-project name="device/generic/opengl-transport"/>
+  <remove-project name="device/google/atv"/>
+  <remove-project name="device/google/contexthub"/>
+  <remove-project name="device/google/cuttlefish"/>
+  <remove-project name="device/google/cuttlefish_kernel"/>
+  <remove-project name="device/google/cuttlefish_vmm"/>
+  <remove-project name="device/linaro/poplar"/>
+  <remove-project name="device/linaro/poplar-kernel"/>
+  <remove-project name="device/sample"/>
+
+  <!-- Useless repos -->
+  <remove-project name="platform/vendor/codeaurora/telephony"/>
+  <remove-project name="platform/vendor/opensource/audio-kernel"/>
+  <remove-project name="platform/vendor/qcom-opensource/data-kernel"/>
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys"/>
+  <remove-project name="platform/vendor/qcom-opensource/fst-manager"/>
+  <remove-project name="platform/vendor/qcom-opensource/location"/>
+  <remove-project name="platform/vendor/qcom-opensource/usb"/>
+  <remove-project name="platform/vendor/qcom-opensource/vibrator"/>
+  <remove-project name="platform/vendor/qcom-opensource/wigig"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/prima"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
+  <remove-project name="platform/vendor/qcom/atoll"/>
+  <remove-project name="platform/vendor/qcom/msm8937_32go"/>
+  <remove-project name="platform/vendor/qcom/msmnile"/>
+  <remove-project name="platform/vendor/qcom/thorium_32"/>
+  <remove-project name="platform/vendor/qcom/thorium_64"/>
+  <remove-project name="platform/vendor/qcom/titanium_32"/>
+  <remove-project name="platform/vendor/qcom/titanium_64"/>
+  <remove-project name="platform/vendor/qcom/wlan"/>
+
+  <remove-project name="platform/hardware/qcom/audio"/>
+  <remove-project name="platform/hardware/qcom/camera"/>
+  <remove-project name="platform/hardware/qcom/media"/>
+  <remove-project name="platform/hardware/qcom/display"/>
+  <remove-project name="platform/hardware/qcom/gps"/>
+
+  <remove-project name="platform/vendor/qcom-opensource/power"/>
+
+</manifest>

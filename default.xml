@@ -48,7 +48,6 @@
   <project groups="pdk,r-fs-release,vts" name="kernel/configs" revision="cf652c5dae0ad5d19423bd946ff0b59681df79c6" upstream="refs/heads/ks-aosp.lnx.3.0.r11-rel"/>
   <project name="kernel/lk" path="bootable/bootloader/lk" revision="3196fab2da26b49f517b1257faf3e5ea814a33df" upstream="refs/heads/lk.lnx.1.0.r48-rel"/>
   <project name="kernel/msm-4.9" revision="34b20ae045617dec05d86d4d3a31b84ffc3014f4" upstream="refs/heads/kernel.lnx.4.9.r40-rel">
-    <linkfile dest="kernel/msm-4.9/Android.bp" src="Androidbp"/>
   </project>
   <project groups="pdk,r-fs-release" name="kernel/prebuilts/4.19/arm64" revision="4b628fb46a96226c0e395147720f2488354d7d60" upstream="refs/heads/ks-aosp.lnx.3.0.r11-rel"/>
   <project groups="pdk,r-fs-release,vts" name="kernel/tests" revision="4e7622d838882e935f1c8763cac40d1a5e6a8ef9" upstream="refs/heads/ks-aosp.lnx.3.0.r11-rel"/>
@@ -832,5 +831,6 @@
   <project groups="pdk,pdk-cw-fs,pdk-fs,r-fs-release" name="tools/platform-compat" revision="1714fa197bd351843ab8469a79f8cecbe03d8c4c" upstream="refs/heads/ks-aosp.lnx.3.0.r11-rel"/>
 
   <include name="snippets/conquer.xml"/>
+  <include name="snippets/remove.xml"/>
 
 </manifest>
