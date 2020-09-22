@@ -125,6 +125,13 @@
   <remove-project name="platform/packages/apps/ThemePicker"/>
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="conquer"/>
 
+  <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/abi-dumps/ndk"/>
+  <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="conquer"/>
+
+  <remove-project name="platform/prebuilts/abi-dumps/vndk"/>
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="conquer"/>
+
   <!-- snapdragon clang -->
   <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="ruby" clone-depth="1"/>
 
