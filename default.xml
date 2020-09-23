@@ -40,8 +40,6 @@
   <project groups="device,pdk,poplar,r-fs-release" name="device/linaro/poplar-kernel" revision="2f6bd503cc92d285e51d2aa3c381e562b2f4a63f" upstream="refs/heads/ks-aosp.lnx.3.0.r11-rel"/>
   <project name="device/qcom/common" revision="ec108819fcd51bd396caf7a93c61e50ec6b9b6d7" upstream="refs/heads/qcom-devices.lnx.6.0.r11-rel">
     <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
-    <linkfile dest="kernel/Android.mk" src="stop_scan.mk"/>
-    <linkfile dest="disregard/Android.mk" src="stop_scan.mk"/>
   </project>
   <project name="device/qcom/qssi" revision="2c89c4bfba451b9caa8af36bf91db8b51c93879c" upstream="refs/heads/qcom-qssi.lnx.6.0.r8-rel"/>
   <project name="device/qcom/sepolicy" revision="13ef09f889e4a7cf044530cafceb90bdd3e5b87a" upstream="refs/heads/sepolicy.lnx.6.0.r11-rel"/>
@@ -778,6 +776,8 @@
     <linkfile dest="vendor/qcom/build/tasks/QMAA_enforcement.mk" src="build/QMAA_enforcement.mk"/>
     <linkfile dest="vendor/qcom/build/tasks/vendor_prop_context_restriction.mk" src="build/vendor_prop_context_restriction.mk"/>
     <linkfile dest="build.sh" src="build/build.sh"/>
+    <linkfile dest="kernel/Android.mk" src="build/stop_scan.mk"/>
+    <linkfile dest="disregard/Android.mk" src="build/stop_scan.mk"/>
   </project>
   <project name="platform/vendor/qcom-opensource/cryptfs_hw" path="vendor/qcom/opensource/commonsys/cryptfs_hw" revision="f9ddb744de137f8acfb5807e24c095c79c67f910" upstream="refs/heads/qcom-qssi.lnx.6.0.r8-rel"/>
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" revision="6dde8ccf7d84350a81072741973f4583345e53f2" upstream="refs/heads/data.lnx.6.0.r10-rel">
