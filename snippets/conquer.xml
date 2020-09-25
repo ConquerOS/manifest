@@ -36,4 +36,37 @@
   <remove-project name="platform/external/selinux"/>
   <project path="external/selinux" name="external_selinux" remote="conquer"/>
 
+  <remove-project name="platform/packages/apps/Settings"/>
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="conquer"/>
+
+  <remove-project name="platform/system/vold"/>
+  <project path="system/vold" name="system_vold" remote="conquer"/>
+
+  <remove-project name="platform/vendor/qcom-opensource/interfaces"/>
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="conquer"/>
+
+  <remove-project name="platform/bootable/recovery"/>
+  <project path="bootable/recovery" name="bootable_recovery" remote="conquer"/>
+
+  <remove-project name="platform/vendor/qcom-opensource/core-utils"/>
+  <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom-opensource_core-utils" remote="conquer"/>
+
+  <remove-project name="platform/vendor/qcom-opensource/recovery-ext"/>
+  <project path="vendor/qcom/opensource/recovery-ext" name="vendor_qcom_opensource_recovery-ext" remote="conquer"/>
+
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr"/>
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="conquer"/>
+
+  <remove-project name="platform/vendor/qcom-opensource/dataservices"/>
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="conquer"/>
+
+  <remove-project name="platform/hardware/qcom/wlan"/>
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="conquer"/>
+
+  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw"/>
+  <project path="vendor/qcom/opensource/commonsys/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="conquer"/>
+
+  <remove-project name="platform/platform_testing"/>
+  <project path="platform_testing" name="platform_testing" remote="conquer"/>
+
 </manifest>
