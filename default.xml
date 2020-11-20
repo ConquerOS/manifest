@@ -836,8 +836,8 @@
   <project name="toolchain/pgo-profiles"/>
   <project name="tools/platform-compat"/>
 
+  <include name="snippets/remove.xml"/>
   <include name="snippets/conquer.xml"/>
   <include name="snippets/lineage.xml"/>
-  <include name="snippets/remove.xml"/>
 
 </manifest>
