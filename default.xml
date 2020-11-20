@@ -834,6 +834,7 @@
   <project name="tools/platform-compat"/>
 
   <include name="snippets/conquer.xml"/>
+  <include name="snippets/lineage.xml"/>
   <include name="snippets/remove.xml"/>
 
 </manifest>
