@@ -10,6 +10,9 @@
            sync-j="8"
            sync-c="true"/>
 
+  <remote  name="github"
+           fetch="https://github.com"/>
+
   <project name="device/amlogic/yukawa"/>
   <project clone-depth="2" name="device/amlogic/yukawa-kernel"/>
   <project name="device/common"/>
