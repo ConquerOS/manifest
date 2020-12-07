@@ -125,4 +125,10 @@
 
   <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="lineage"/>
 
+  <!-- system repos -->
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage"/>
+
+  <remove-project name="platform/system/tools/mkbootimg"/>
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="lineage"/>
+
 </manifest>
