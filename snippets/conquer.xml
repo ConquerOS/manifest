@@ -87,6 +87,8 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="conquer"/>
 
   <!-- packages/apps -->
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="conquer"/>
+
   <remove-project name="platform/packages/apps/Settings"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="conquer"/>
 
