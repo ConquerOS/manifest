@@ -30,6 +30,9 @@
   <remove-project name="platform/external/libcxx"/>
   <project path="external/libcxx" name="external_libcxx" remote="conquer"/>
 
+  <remove-project name="platform/external/libgav1"/>
+  <project path="external/libgav1" name="external_libgav1" remote="conquer"/>
+
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av"/>
   <project path="frameworks/av" name="frameworks_av" remote="conquer"/>
