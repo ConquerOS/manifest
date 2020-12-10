@@ -101,6 +101,20 @@
   <!-- snapdragon clang -->
   <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="ruby" clone-depth="1"/>
 
+  <!-- sepolicy repos -->
+  <project path="device/conquer/sepolicy" name="device_conquer_sepolicy" remote="conquer"/>
+
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="conquer"/>
+
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="conquer"/>
+
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="conquer"/>
+
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="conquer"/>
+
+  <remove-project name="platform/system/sepolicy"/>
+  <project path="system/sepolicy" name="system_sepolicy" remote="conquer"/>
+
   <!-- system repos -->
   <remove-project name="platform/system/bt"/>
   <project path="system/bt" name="system_bt" remote="conquer"/>
