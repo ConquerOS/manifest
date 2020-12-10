@@ -134,6 +134,9 @@
   <remove-project name="platform/system/core"/>
   <project path="system/core" name="system_core" remote="conquer"/>
 
+  <remove-project name="platform/system/extras"/>
+  <project path="system/extras" name="system_extras" remote="conquer"/>
+
   <remove-project name="platform/system/libufdt"/>
   <project path="system/libufdt" name="system_libufdt" remote="conquer"/>
 
