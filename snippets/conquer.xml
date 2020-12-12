@@ -87,6 +87,9 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="conquer"/>
 
   <!-- packages/apps -->
+  <remove-project name="platform/packages/apps/Bluetooth"/>
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="conquer"/>
+
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="conquer"/>
 
   <remove-project name="platform/packages/apps/Settings"/>
@@ -136,6 +139,12 @@
 
   <remove-project name="platform/vendor/codeaurora/telephony"/>
   <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="conquer"/>
+
+  <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth"/>
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="conquer"/>
+
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth-commonsys-intf"/>
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom-opensource_bluetooth-commonsys-intf" remote="conquer"/>
 
   <remove-project name="platform/vendor/qcom-opensource/interfaces"/>
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="conquer"/>
