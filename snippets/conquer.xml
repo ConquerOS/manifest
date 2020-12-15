@@ -40,6 +40,9 @@
   <remove-project name="platform/frameworks/native"/>
   <project path="frameworks/native" name="frameworks_native" remote="conquer"/>
 
+  <remove-project name="platform/frameworks/opt/net/wifi"/>
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="conquer"/>
+
   <remove-project name="platform/frameworks/opt/telephony"/>
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="conquer"/>
 
@@ -89,6 +92,9 @@
   <!-- packages/apps -->
   <remove-project name="platform/packages/apps/Bluetooth"/>
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="conquer"/>
+
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver"/>
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="conquer"/>
 
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="conquer"/>
 
