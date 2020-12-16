@@ -96,10 +96,25 @@
   <remove-project name="platform/packages/apps/Bluetooth"/>
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="conquer"/>
 
+  <remove-project name="platform/packages/apps/Camera2"/>
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="conquer"/>
+
   <remove-project name="platform/packages/apps/CellBroadcastReceiver"/>
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="conquer"/>
 
+  <remove-project name="platform/packages/apps/Contacts"/>
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="conquer"/>
+
+  <remove-project name="platform/packages/apps/DeskClock"/>
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="conquer"/>
+
+  <remove-project name="platform/packages/apps/Dialer"/>
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="conquer"/>
+
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="conquer"/>
+
+  <remove-project name="platform/packages/apps/Messaging"/>
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="conquer"/>
 
   <remove-project name="platform/packages/apps/Settings"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="conquer"/>
