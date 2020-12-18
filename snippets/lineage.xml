@@ -74,6 +74,8 @@
   <!-- packages repos -->
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage"/>
 
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="lineage"/>
+
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage"/>
 
   <!-- prebuilts -->
