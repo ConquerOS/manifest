@@ -68,9 +68,6 @@
   <remove-project name="platform/hardware/libhardware"/>
   <project path="hardware/libhardware" name="hardware_libhardware" remote="conquer"/>
 
-  <remove-project name="platform/hardware/libhardware_legacy"/>
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="conquer"/>
-
   <remove-project name="platform/hardware/nxp/nfc"/>
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="conquer"/>
 
