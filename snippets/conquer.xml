@@ -167,6 +167,8 @@
   <remove-project name="platform/packages/apps/SettingsIntelligence"/>
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="conquer"/>
 
+  <project path="packages/apps/Snap" name="packages_apps_Snap" remote="conquer"/>
+
   <remove-project name="platform/packages/apps/ThemePicker"/>
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="conquer"/>
 
