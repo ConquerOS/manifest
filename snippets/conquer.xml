@@ -31,6 +31,12 @@
   </project>
 
   <!-- external -->
+  <remove-project name="platform/external/cldr"/>
+  <project path="external/cldr" name="external_cldr" remote="conquer" clone-depth="1"/>
+
+  <remove-project name="platform/external/icu"/>
+  <project path="external/icu" name="external_icu" remote="conquer" clone-depth="1"/>
+
   <remove-project name="platform/external/libcxx"/>
   <project path="external/libcxx" name="external_libcxx" remote="conquer"/>
 
@@ -168,6 +174,9 @@
 
   <remove-project name="platform/system/libufdt"/>
   <project path="system/libufdt" name="system_libufdt" remote="conquer"/>
+
+  <remove-project name="platform/system/timezone"/>
+  <project path="system/timezone" name="system_timezone" remote="conquer"/>
 
   <remove-project name="platform/system/update_engine"/>
   <project path="system/update_engine" name="system_update_engine" remote="conquer"/>
