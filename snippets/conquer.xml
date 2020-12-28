@@ -2,7 +2,7 @@
 <manifest>
 
    <remote name="conquer"
-           fetch="ssh://git@github.com/Conquer-Staging/"
+           fetch="https://github.com/ConquerOS/"
            revision="eleven"/>
  
   <!-- build -->
