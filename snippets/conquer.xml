@@ -57,7 +57,7 @@
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="conquer"/>
 
   <!-- hardware -->
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="conquer"/>
+  <project path="hardware/conquer/interfaces" name="hardware_conquer_interfaces" remote="conquer"/>
 
   <remove-project name="platform/hardware/interfaces"/>
   <project path="hardware/interfaces" name="hardware_interfaces" remote="conquer"/>
