@@ -170,6 +170,7 @@
 
   <!-- vendor repos -->
   <project path="vendor/conquer" name="vendor_conquer" remote="conquer"/>
+  <project path="vendor/conquerui" name="vendor_conquerui" remote="conquer"/>
 
   <remove-project name="platform/vendor/codeaurora/telephony"/>
   <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="conquer"/>
