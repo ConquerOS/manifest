@@ -5,6 +5,10 @@
            fetch="https://github.com/ConquerOS/"
            revision="eleven"/>
  
+  <remote  name="conqueros-devices"
+           fetch="https://github.com/ConquerOS-devices/"
+           revision="eleven"/>
+
   <!-- build -->
   <remove-project name="platform/build"/>
   <project path="build/make" name="build_make" remote="conquer" >
