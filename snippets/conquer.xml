@@ -90,6 +90,9 @@
   <remove-project name="platform/external/wpa_supplicant_8"/>
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="conquer"/>
 
+  <remove-project name="platform/packages/providers/ContactsProvider"/>
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="conquer"/>
+
   <remove-project name="platform/packages/services/Telephony"/>
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="conquer"/>
 
