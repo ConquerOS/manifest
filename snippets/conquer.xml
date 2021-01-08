@@ -81,6 +81,9 @@
   <project path="hardware/ril" name="hardware_ril" remote="conquer"/>
 
   <!-- general repos -->
+  <remove-project name="platform/art"/>
+  <project path="art" name="art" remote="conquer"/>
+
   <remove-project name="platform/bionic"/>
   <project path="bionic" name="bionic" remote="conquer"/>
 
@@ -204,9 +207,6 @@
   <project path="vendor/qcom/opensource/recovery-ext" name="vendor_qcom_opensource_recovery-ext" remote="conquer"/>
 
   <!-- AOSPA -->
-  <remove-project name="platform/art"/>
-  <project path="art" name="AOSPA/android_art" remote="github" revision="ruby"/>
-
   <remove-project name="platform/external/arm-optimized-routines"/>
   <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="github" revision="ruby"/>
   <remove-project name="platform/external/iptables"/>
