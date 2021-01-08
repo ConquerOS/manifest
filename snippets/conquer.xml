@@ -120,6 +120,9 @@
   <remove-project name="platform/packages/apps/Messaging"/>
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="conquer"/>
 
+  <remove-project name="platform/packages/apps/Nfc"/>
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="conquer"/>
+
   <remove-project name="platform/packages/apps/Settings"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="conquer"/>
 
