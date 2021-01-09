@@ -207,6 +207,9 @@
   <remove-project name="platform/vendor/qcom-opensource/interfaces"/>
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="conquer"/>
 
+  <remove-project name="platform/vendor/qcom-opensource/power"/>
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="conquer"/>
+
   <remove-project name="platform/vendor/qcom-opensource/recovery-ext"/>
   <project path="vendor/qcom/opensource/recovery-ext" name="vendor_qcom_opensource_recovery-ext" remote="conquer"/>
 
