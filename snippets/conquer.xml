@@ -31,17 +31,37 @@
   </project>
 
   <!-- external -->
+  <remove-project name="platform/external/arm-optimized-routines"/>
+  <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="conquer"/>
+
   <remove-project name="platform/external/cldr"/>
   <project path="external/cldr" name="external_cldr" remote="conquer" clone-depth="1"/>
 
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="conquer"/>
+
   <remove-project name="platform/external/icu"/>
   <project path="external/icu" name="external_icu" remote="conquer" clone-depth="1"/>
+
+  <remove-project name="platform/external/iptables"/>
+  <project path="external/iptables" name="external_iptables" remote="conquer"/>
 
   <remove-project name="platform/external/libcxx"/>
   <project path="external/libcxx" name="external_libcxx" remote="conquer"/>
 
   <remove-project name="platform/external/libgav1"/>
   <project path="external/libgav1" name="external_libgav1" remote="conquer"/>
+
+  <remove-project name="platform/external/libjpeg-turbo"/>
+  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="conquer"/>
+
+  <remove-project name="platform/external/libpng"/>
+  <project path="external/libpng" name="external_libpng" remote="conquer"/>
+
+  <remove-project name="platform/external/scudo"/>
+  <project path="external/scudo" name="external_scudo" remote="conquer"/>
+
+  <remove-project name="platform/external/zlib"/>
+  <project path="external/zlib" name="external_zlib" remote="conquer"/>
 
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av"/>
@@ -212,21 +232,5 @@
 
   <remove-project name="platform/vendor/qcom-opensource/recovery-ext"/>
   <project path="vendor/qcom/opensource/recovery-ext" name="vendor_qcom_opensource_recovery-ext" remote="conquer"/>
-
-  <!-- AOSPA -->
-  <remove-project name="platform/external/arm-optimized-routines"/>
-  <project path="external/arm-optimized-routines" name="AOSPA/android_external_arm-optimized-routines" remote="github" revision="ruby"/>
-  <remove-project name="platform/external/iptables"/>
-  <project path="external/iptables" name="AOSPA/android_external_iptables" remote="github" revision="ruby"/>
-  <remove-project name="platform/external/libjpeg-turbo"/>
-  <project path="external/libjpeg-turbo" name="AOSPA/android_external_libjpeg-turbo" remote="github" revision="ruby"/>
-  <remove-project name="platform/external/libpng"/>
-  <project path="external/libpng" name="AOSPA/android_external_libpng" remote="github" revision="ruby"/>
-  <remove-project name="platform/external/scudo"/>
-  <project path="external/scudo" name="AOSPA/android_external_scudo" remote="github" revision="ruby"/>
-  <remove-project name="platform/external/zlib"/>
-  <project path="external/zlib" name="AOSPA/android_external_zlib" remote="github" revision="ruby"/>
-
-  <project path="external/exfatprogs" name="AOSPA/android_external_exfatprogs" remote="github" revision="ruby"/>
 
 </manifest>
