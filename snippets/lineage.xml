@@ -69,7 +69,6 @@
   <remove-project name="platform/hardware/qcom/thermal"/>
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage"/>
 
-  <remove-project name="platform/hardware/qcom/vr"/>
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage"/>
 
   <remove-project name="platform/hardware/qcom/gps"/>

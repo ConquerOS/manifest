@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-   <remote name="conquer"
+  <remote  name="conquer"
            fetch="https://github.com/ConquerOS/"
            revision="eleven"/>
- 
+
   <remote  name="conqueros-devices"
            fetch="https://github.com/ConquerOS-devices/"
            revision="eleven"/>
