@@ -69,8 +69,6 @@
 
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage"/>
 
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage"/>
-
   <!-- packages repos -->
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage"/>
 
