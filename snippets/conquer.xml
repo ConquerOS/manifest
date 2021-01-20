@@ -230,6 +230,4 @@
 
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="conquer"/>
 
-  <project path="vendor/qcom/opensource/recovery-ext" name="vendor_qcom_opensource_recovery-ext" remote="conquer"/>
-
 </manifest>
