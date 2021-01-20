@@ -26,38 +26,14 @@
   <remove-project name="device/sample"/>
 
   <!-- qcom vendor repos -->
-  <remove-project name="platform/vendor/opensource/audio-kernel"/>
   <remove-project name="platform/vendor/qcom-opensource/audio"/>
-  <remove-project name="platform/vendor/qcom-opensource/audio-hal/st-hal"/>
   <remove-project name="platform/vendor/qcom-opensource/core-utils"/>
-  <remove-project name="platform/vendor/qcom-opensource/data-kernel"/>
-  <remove-project name="platform/vendor/qcom-opensource/dpm"/>
-  <remove-project name="platform/vendor/qcom-opensource/fst-manager"/>
-  <remove-project name="platform/vendor/qcom-opensource/location"/>
-  <remove-project name="platform/vendor/qcom-opensource/time-services"/>
-  <remove-project name="platform/vendor/qcom-opensource/wigig"/>
-  <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api"/>
-  <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn"/>
-  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0"/>
-  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut"/>
-  <remove-project name="platform/vendor/qcom/atoll"/>
-  <remove-project name="platform/vendor/qcom/msmnile"/>
-  <remove-project name="platform/vendor/qcom/steppe"/>
-  <remove-project name="platform/vendor/qcom/thulium"/>
-  <remove-project name="platform/vendor/qcom/wlan"/>
-
-  <remove-project name="platform/hardware/qcom/audio"/>
-  <remove-project name="platform/hardware/qcom/media"/>
-  <remove-project name="platform/hardware/qcom/display"/>
 
   <!-- device repos -->
   <remove-project name="device/qcom/qssi"/>
   <remove-project name="device/qcom/sepolicy"/>
-  <remove-project name="device/qcom/sepolicy_vndr"/>
-  <remove-project name="device/qcom/vendor-common"/>
 
   <!-- kernel -->
-  <remove-project name="kernel/msm-4.14"/>
   <remove-project name="kernel/prebuilts/4.19/arm64"/>
 
 </manifest>
