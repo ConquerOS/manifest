@@ -57,8 +57,14 @@
   <remove-project name="platform/external/libpng"/>
   <project path="external/libpng" name="external_libpng" remote="conquer"/>
 
+  <remove-project name="platform/external/nos/host/generic"/>
+  <project path="external/nos/host/generic" name="external_nos_host_generic" remote="conquer"/>
+
   <remove-project name="platform/external/scudo"/>
   <project path="external/scudo" name="external_scudo" remote="conquer"/>
+
+  <remove-project name="platform/external/tinycompress"/>
+  <project path="external/tinycompress" name="external_tinycompress" remote="conquer"/>
 
   <remove-project name="platform/external/zlib"/>
   <project path="external/zlib" name="external_zlib" remote="conquer"/>
