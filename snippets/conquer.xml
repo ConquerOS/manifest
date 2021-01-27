@@ -92,6 +92,8 @@
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display-msm8996" remote="conquer"/>
   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media-msm8996" remote="conquer"/>
 
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display-sm8150" remote="conquer"/>
+
   <!-- hardware -->
   <project path="hardware/conquer/interfaces" name="hardware_conquer_interfaces" remote="conquer"/>
 
