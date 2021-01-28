@@ -156,6 +156,8 @@
 
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="conquer"/>
 
+  <project path="packages/apps/Features" name="packages_apps_Features" remote="conquer"/>
+
   <remove-project name="platform/packages/apps/Messaging"/>
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="conquer"/>
 
