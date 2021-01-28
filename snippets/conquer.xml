@@ -48,9 +48,6 @@
   <remove-project name="platform/external/libcxx"/>
   <project path="external/libcxx" name="external_libcxx" remote="conquer"/>
 
-  <remove-project name="platform/external/libgav1"/>
-  <project path="external/libgav1" name="external_libgav1" remote="conquer"/>
-
   <remove-project name="platform/external/libjpeg-turbo"/>
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="conquer"/>
 
