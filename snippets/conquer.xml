@@ -123,6 +123,8 @@
 
   <project path="device/qcom/common" name="device_qcom_common" remote="conquer"/>
 
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="conquer"/>
+
   <remove-project name="platform/external/json-c"/>
   <project path="external/json-c" name="external_json-c" remote="conquer"/>
 
