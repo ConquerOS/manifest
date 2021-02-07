@@ -66,6 +66,8 @@
   <remove-project name="platform/external/zlib"/>
   <project path="external/zlib" name="external_zlib" remote="conquer"/>
 
+  <project path="external/faceunlock" name="external_faceunlock" remote="conquer" />
+
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av"/>
   <project path="frameworks/av" name="frameworks_av" remote="conquer"/>
@@ -153,6 +155,7 @@
 
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="conquer"/>
 
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="conquer" />
   <project path="packages/apps/Features" name="packages_apps_Features" remote="conquer"/>
 
   <remove-project name="platform/packages/apps/Messaging"/>
