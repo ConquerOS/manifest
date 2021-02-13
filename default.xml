@@ -5,7 +5,7 @@
            fetch="https://source.codeaurora.org/quic/la/"
            review="codeaurora.org"/>
 
-  <default revision="refs/tags/LA.QSSI.11.0.r1-09600-qssi.0"
+  <default revision="refs/tags/LA.QSSI.11.0.r1-09900-qssi.0"
            remote="caf"
            sync-j="8"
            sync-c="true"/>
@@ -77,7 +77,6 @@
   <project name="platform/external/FP16" path="external/FP16"/>
   <project name="platform/external/FXdiv" path="external/FXdiv"/>
   <project name="platform/external/ImageMagick" path="external/ImageMagick"/>
-  <project name="platform/external/OpenCL-CTS" path="external/OpenCL-CTS"/>
   <project name="platform/external/OpenCSD" path="external/OpenCSD"/>
   <project name="platform/external/Reactive-Extensions/RxCpp" path="external/Reactive-Extensions/RxCpp"/>
   <project name="platform/external/XNNPACK" path="external/XNNPACK"/>
