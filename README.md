@@ -27,7 +27,7 @@ If you want to download full ConquerOS Source, type:
 repo init -u git://github.com/ConquerOS/manifest.git -b eleven
 ```
 
-- Just in case you just want save more space and data, you can ue command below:
+- Just in case you just want save more space and data, you can use command below:
 ```
 repo init --depth=1 -u git://github.com/ConquerOS/manifest.git -b eleven
 ```
