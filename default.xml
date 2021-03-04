@@ -5,7 +5,7 @@
            fetch="https://source.codeaurora.org/quic/la/"
            review="codeaurora.org"/>
 
-  <default revision="refs/tags/LA.QSSI.11.0.r1-10200-qssi.0"
+  <default revision="refs/tags/LA.QSSI.11.0.r1-10400-qssi.0"
            remote="caf"
            sync-j="8"
            sync-c="true"/>
