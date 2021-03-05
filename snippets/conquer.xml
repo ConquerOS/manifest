@@ -41,7 +41,7 @@
   <remove-project name="platform/external/cldr"/>
   <project path="external/cldr" name="external_cldr" remote="conquer" clone-depth="1"/>
 
-  <project path="external/exfatprogs" name="external_exfatprogs" remote="conquer"/>
+  <project path="external/exfat" name="PixelExperience/external_exfat" remote="github" revision="eleven"/>
 
   <remove-project name="platform/external/icu"/>
   <project path="external/icu" name="external_icu" remote="conquer" clone-depth="1"/>
