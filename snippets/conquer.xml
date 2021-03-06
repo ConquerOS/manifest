@@ -5,6 +5,10 @@
            fetch="https://github.com/ConquerOS/"
            revision="eleven"/>
 
+  <remote  name="conquer-gitlab"
+           fetch="https://gitlab.com/ConquerOS/"
+           revision="eleven"/>
+
   <remote  name="conqueros-devices"
            fetch="https://github.com/ConquerOS-devices/"
            revision="eleven"/>
@@ -66,7 +70,7 @@
   <remove-project name="platform/external/zlib"/>
   <project path="external/zlib" name="external_zlib" remote="conquer"/>
 
-  <project path="external/faceunlock" name="external_faceunlock" remote="conquer" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="conquer-gitlab" />
 
   <!-- frameworks -->
   <remove-project name="platform/frameworks/av"/>
