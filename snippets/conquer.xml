@@ -168,6 +168,9 @@
   <remove-project name="platform/packages/apps/Nfc"/>
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="conquer"/>
 
+  <remove-project name="platform/packages/apps/PackageInstaller"/>
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" remote="conquer"/>
+
   <remove-project name="platform/packages/apps/Settings"/>
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="conquer"/>
 
