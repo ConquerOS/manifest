@@ -219,6 +219,9 @@
   <remove-project name="platform/system/libufdt"/>
   <project path="system/libufdt" name="system_libufdt" remote="conquer"/>
 
+  <remove-project name="platform/system/netd"/>
+  <project path="system/netd" name="system_netd" remote="conquer"/>
+
   <remove-project name="platform/system/timezone"/>
   <project path="system/timezone" name="system_timezone" remote="conquer"/>
 
