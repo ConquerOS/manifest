@@ -18,7 +18,7 @@ Now, let's Download ConquerOS Source
 - First, make directory for ConquerOS Source, and then enter to the directory.
 ```
 $ mkdir -p ~/conquer
-$ cd /conquer
+$ cd ~/conquer
 ```
 
 - Second, initialize ConquerOS Source manifest in the directory
