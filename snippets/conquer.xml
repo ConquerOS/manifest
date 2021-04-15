@@ -182,6 +182,8 @@
   <remove-project name="platform/packages/apps/ThemePicker"/>
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="conquer"/>
 
+  <project path="packages/apps/VolumeStyle" name="packages_apps_VoluumeStyle" remote="conquer"/>
+
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/abi-dumps/ndk"/>
   <project path="prebuilts/abi-dumps/ndk" name="prebuilts_abi-dumps_ndk" remote="conquer"/>
