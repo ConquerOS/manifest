@@ -41,9 +41,9 @@ Now, let's start compilation
 
 - Call building environtment setup script.
 ```
-$ . build/envsetup.sh
-$ lunch conquer_DEVICE_NAME-userdebug```
-$ make carthage -jX
+$ source build/envsetup.sh
+$ lunch conquer_<device_codename>-userdebug
+$ make carthage -j$(nproc --all)
 ```
 
 For more information, you can check our [Wiki](https://wiki.conqueros.co)
