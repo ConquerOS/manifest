@@ -192,7 +192,7 @@
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="conquer"/>
 
   <!-- snapdragon clang -->
-  <project path="vendor/qcom/sdclang" name="ThankYouMario/proprietary_vendor_qcom_sdclang" remote="github" revision="ruby" clone-depth="1"/>
+  <project path="vendor/qcom/sdclang" name="vendor_qcom_sdclang" remote="conquer" clone-depth="1"/>
 
   <!-- sepolicy repos -->
   <project path="device/conquer/sepolicy" name="device_conquer_sepolicy" remote="conquer"/>
