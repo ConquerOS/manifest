@@ -52,9 +52,6 @@
   <remove-project name="platform/external/libcxx"/>
   <project path="external/libcxx" name="external_libcxx" remote="conquer"/>
 
-  <remove-project name="platform/external/libjpeg-turbo"/>
-  <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="conquer"/>
-
   <remove-project name="platform/external/libpng"/>
   <project path="external/libpng" name="external_libpng" remote="conquer"/>
 
