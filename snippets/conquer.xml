@@ -215,6 +215,9 @@
   <remove-project name="platform/system/extras"/>
   <project path="system/extras" name="system_extras" remote="conquer"/>
 
+  <remove-project name="platform/system/libhwbinder"/>
+  <project path="system/libhwbinder" name="system_libhwbinder" remote="conquer"/>
+
   <remove-project name="platform/system/libufdt"/>
   <project path="system/libufdt" name="system_libufdt" remote="conquer"/>
 
