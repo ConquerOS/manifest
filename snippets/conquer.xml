@@ -221,6 +221,9 @@
   <remove-project name="platform/system/libufdt"/>
   <project path="system/libufdt" name="system_libufdt" remote="conquer"/>
 
+  <remove-project name="platform/system/memory/lmkd"/>
+  <project path="system/memory/lmkd" name="system_memory_lmkd" remote="conquer"/>
+
   <remove-project name="platform/system/netd"/>
   <project path="system/netd" name="system_netd" remote="conquer"/>
 
