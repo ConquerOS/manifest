@@ -196,8 +196,6 @@
 
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="conquer"/>
 
-  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="conquer"/>
-
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="conquer"/>
 
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="conquer"/>
