@@ -31,6 +31,8 @@
 
   <!-- device repos -->
   <remove-project name="device/qcom/qssi"/>
+  <remove-project name="device/qcom/qssi_32"/>
+  <remove-project name="device/qcom/qssi_32go"/>
   <remove-project name="device/qcom/sepolicy"/>
 
   <!-- kernel -->
