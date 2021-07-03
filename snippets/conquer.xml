@@ -89,10 +89,15 @@
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="conquer"/>
 
   <!-- HALs -->
-  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display-msm8996" remote="conquer"/>
-  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media-msm8996" remote="conquer"/>
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="conquer"/>
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="conquer"/>
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="conquer"/>  
 
-  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display-sm8150" remote="conquer"/>
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="conquer"/>
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="conquer"/>
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="conquer"/>
+
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="conquer"/>
 
   <!-- hardware -->
   <project path="hardware/conquer/interfaces" name="hardware_conquer_interfaces" remote="conquer"/>
