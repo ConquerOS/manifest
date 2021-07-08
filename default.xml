@@ -5,7 +5,7 @@
            fetch="https://source.codeaurora.org/quic/la/"
            review="codeaurora.org"/>
 
-  <default revision="refs/tags/LA.QSSI.11.0.r1-12200-qssi.0"
+  <default revision="refs/tags/LA.QSSI.11.0.r1-12400.02-qssi.0"
            remote="caf"
            sync-j="8"
            sync-c="true"/>
@@ -488,7 +488,6 @@
   <project name="platform/packages/apps/Camera2" path="packages/apps/Camera2"/>
   <project name="platform/packages/apps/Car/Calendar" path="packages/apps/Car/Calendar"/>
   <project name="platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster"/>
-  <project name="platform/packages/apps/Car/CompanionDeviceSupport" path="packages/apps/Car/CompanionDeviceSupport"/>
   <project name="platform/packages/apps/Car/Dialer" path="packages/apps/Car/Dialer"/>
   <project name="platform/packages/apps/Car/Hvac" path="packages/apps/Car/Hvac"/>
   <project name="platform/packages/apps/Car/LatinIME" path="packages/apps/Car/LatinIME"/>
