@@ -266,4 +266,6 @@
 
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="conquer"/>
 
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="conquer"/>
+
 </manifest>
