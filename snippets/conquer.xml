@@ -195,6 +195,8 @@
   <remove-project name="platform/prebuilts/abi-dumps/vndk"/>
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="conquer"/>
 
+  <project path="tools/extract-utils" name="tools_extract-utils" remote="conquer"/>
+
   <!-- snapdragon clang -->
   <project path="vendor/qcom/sdclang" name="vendor_qcom_sdclang" remote="conquer" clone-depth="1"/>
 
