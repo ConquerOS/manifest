@@ -43,6 +43,9 @@
 
   <project path="external/exfat" name="PixelExperience/external_exfat" remote="github" revision="eleven"/>
 
+  <remove-project name="platform/external/jemalloc_new"/>
+  <project path="external/jemalloc_new" name="external_jemalloc_new" remote="conquer"/>
+
   <remove-project name="platform/external/icu"/>
   <project path="external/icu" name="external_icu" remote="conquer" clone-depth="1"/>
 
@@ -135,6 +138,9 @@
 
   <remove-project name="platform/external/wpa_supplicant_8"/>
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="conquer"/>
+
+  <remove-project name="platform/libcore"/>
+  <project path="libcore" name="libcore" remote="conquer"/>
 
   <remove-project name="platform/packages/providers/ContactsProvider"/>
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="conquer"/>
