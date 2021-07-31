@@ -192,8 +192,6 @@
   <remove-project name="platform/packages/apps/ThemePicker"/>
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="conquer"/>
 
-  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="conquer"/>
-
   <project path="packages/apps/VolumeStyle" name="packages_apps_VoluumeStyle" remote="conquer"/>
 
   <!-- Prebuilts -->
