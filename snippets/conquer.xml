@@ -192,6 +192,8 @@
 
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="conquer"/>
 
+  <project path="packages/apps/SoftAPManager" name="packages_apps_SoftAPManager" remote="conquer"/>
+
   <remove-project name="platform/packages/apps/ThemePicker"/>
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="conquer"/>
 
