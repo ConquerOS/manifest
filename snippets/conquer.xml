@@ -95,6 +95,7 @@
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="conquer"/>
 
   <!-- HALs -->
+  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="conquer"/>
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="conquer"/>
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="conquer"/>
   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="conquer"/>  
