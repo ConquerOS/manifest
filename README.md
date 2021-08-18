@@ -17,23 +17,23 @@ Now, let's Download ConquerOS Source
 
 - First, make directory for ConquerOS Source, and then enter to the directory.
 ```
-$ mkdir -p ~/conquer
-$ cd ~/conquer
+ mkdir -p ~/conquer
+ cd ~/conquer
 ```
 
 - Second, initialize ConquerOS Source manifest in the directory
 ```
-$ repo init -u git://github.com/ConquerOS/manifest.git -b eleven
+ repo init -u git://github.com/ConquerOS/manifest.git -b eleven
 ```
 
 - Just in case you just want save more space and data, you can use command below
 ```
-$ repo init --depth=1 -u git://github.com/ConquerOS/manifest.git -b eleven
+ repo init --depth=1 -u git://github.com/ConquerOS/manifest.git -b eleven
 ```
 
 - Third, start downloading the ConquerOS Source.
 ```
-$ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
+ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
 ```
 
 ### Start building
@@ -41,9 +41,9 @@ Now, let's start compilation
 
 - Call building environtment setup script.
 ```
-$ source build/envsetup.sh
-$ lunch conquer_<device_codename>-userdebug
-$ make carthage -j$(nproc --all)
+ source build/envsetup.sh
+ lunch conquer_<device_codename>-userdebug
+ make carthage -j$(nproc --all)
 ```
 
 For more information, you can check our [Wiki](https://wiki.conqueros.co)
