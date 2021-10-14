@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-12.0.0_r12"/>
+
+  <!-- hardware repos -->
+  <project path="hardware/google/pixel" name="platform/hardware/google/pixel" remote="aosp"/>
+
+</manifest>

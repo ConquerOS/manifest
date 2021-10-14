@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- qcom vendor repos -->
+  <remove-project name="platform/vendor/qcom-opensource/core-utils"/>
+  <remove-project name="platform/vendor/qcom-opensource/core-utils-sys"/>
+
+  <!-- qcom device repos -->
+  <remove-project name="device/qcom/qssi"/>
+  <remove-project name="device/qcom/qssi_32"/>
+  <remove-project name="device/qcom/qssi_32go"/>
+  <remove-project name="device/qcom/sepolicy"/>
+
+</manifest>

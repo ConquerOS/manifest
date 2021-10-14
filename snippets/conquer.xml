@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="conquer"
+           fetch="ssh://git@github.com/Conquer-Staging"
+           revision="twelve"/>
+
+  <!-- conquer repos -->
+  <project path="vendor/conquer" name="vendor_conquer" remote="conquer"/>
+
+</manifest>
