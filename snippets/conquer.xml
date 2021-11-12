@@ -80,6 +80,9 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="conquer"/>
 
   <!-- packages/modules repos -->
+  <remove-project name="platform/packages/modules/adb"/>
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="conquer"/>
+
   <remove-project name="platform/packages/modules/Connectivity"/>
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="conquer"/>
 
