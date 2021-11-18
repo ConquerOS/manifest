@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="lineage"
-          fetch="https://github.com/LineageOS"
-          revision="refs/heads/lineage-18.1"/>
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-18.1"/>
+
+  <remote  name="arrow"
+           fetch="ssh://git@github.com/ArrowOS"
+           revision="refs/heads/arrow-12.0" />
+
+  <!-- ExFat -->
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage"/>
 
   <!-- Gaurd for HALs -->
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="lineage"  >
@@ -17,13 +24,30 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk"/>
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp"/>
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk"/>
-    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp"/>
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk"/>
+    <!--<linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp"/>-->
+    <!--<linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk"/>-->
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp"/>
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk"/>
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp"/>
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk"/>
   </project>
+
+  <!-- QCOM HALs -->
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="conquer" revision="twelve" />
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="conquer" revision="twelve" />
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="conquer" revision="twelve" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-12.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-12.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-12.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" remote="arrow" revision="arrow-12.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" remote="arrow" revision="arrow-12.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" remote="arrow" revision="arrow-12.0-caf-sm8250" />
 
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="lineage" revision="lineage-18.1-caf"/>
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" remote="lineage" revision="lineage-18.1-caf"/>
@@ -43,8 +67,23 @@
   <project path="prebuilts/tools-conquer" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1"/>
 
   <!-- vendor repos -->
+  <remove-project name="platform/vendor/qcom-opensource/audio"/>
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage"/>
+
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys"/>
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="lineage"/>
+
+  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw"/>
+  <!--<project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="lineage"/>-->
+
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="lineage"/>
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="lineage"/>
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="lineage"/>
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="arrow" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow" />
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="lineage"/>
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="lineage"/>
 
   <!-- system repos -->
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="lineage"/>
