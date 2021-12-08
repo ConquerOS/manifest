@@ -2,11 +2,15 @@
 <manifest>
 
   <remote  name="conquer"
-           fetch="ssh://git@github.com/Conquer-Staging"
+           fetch="https://github.com/conquerOS/"
            revision="twelve"/>
 
   <remote  name="conquer-gitlab"
-           fetch="ssh://git@gitlab.com/ConquerOS/"
+           fetch="https://gitlab.com/conquerOS/"
+           revision="twelve"/>
+
+  <remote  name="conqueros-devices"
+           fetch="https://github.com/conquerOS-devices/"
            revision="twelve"/>
 
   <!-- build repos -->

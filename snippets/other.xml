@@ -7,7 +7,7 @@
            revision="refs/tags/android-12.0.0_r12"/>
 
   <remote  name="github"
-           fetch="ssh://git@github.com/"/>
+           fetch="https://github.com/"/>
 
   <!-- external repos -->
   <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc"/>
