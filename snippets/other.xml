@@ -15,5 +15,6 @@
 
   <!-- hardware repos -->
   <project path="hardware/google/pixel" name="platform/hardware/google/pixel" remote="aosp"/>
+  <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46"/>
 
 </manifest>
