@@ -38,6 +38,9 @@
   <project path="vendor/gapps" name="vendor_gapps" remote="conquer-gitlab" clone-depth="1"/>
 
   <!-- frameworks repos -->
+  <remove-project name="platform/frameworks/av"/>
+  <project path="frameworks/av" name="frameworks_av" remote="conquer"/>
+
   <remove-project name="platform/frameworks/base"/>
   <project path="frameworks/base" name="frameworks_base" remote="conquer"/>
 
