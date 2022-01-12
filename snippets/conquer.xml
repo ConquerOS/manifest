@@ -44,9 +44,6 @@
   <remove-project name="platform/frameworks/base"/>
   <project path="frameworks/base" name="frameworks_base" remote="conquer"/>
 
-  <remove-project name="platform/frameworks/libs/systemui"/>
-  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="conquer"/>
-
   <remove-project name="platform/frameworks/native"/>
   <project path="frameworks/native" name="frameworks_native" remote="conquer"/>
 
