@@ -86,9 +86,6 @@
   <remove-project name="platform/packages/modules/Connectivity"/>
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="conquer"/>
 
-  <!-- prebuilts -->
-  <project path="tools/extract-utils" name="tools_extract-utils" remote="conquer"/>
-
   <!-- qcom vendor repos -->
   <remove-project name="platform/vendor/codeaurora/telephony"/>
   <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="conquer"/>
