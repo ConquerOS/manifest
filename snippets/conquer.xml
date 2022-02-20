@@ -48,6 +48,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="conquer"/>
 
   <!-- external repos -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="conquer-gitlab" />
   <remove-project name="platform/external/json-c"/>
   <project path="external/json-c" name="external_json-c" remote="conquer"/>
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="conquer"/>
@@ -73,6 +74,8 @@
   <project path="hardware/conquer/interfaces" name="hardware_conquer_interfaces" remote="conquer"/>
 
   <!-- packages/apps repos -->
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="conquer" />
+
   <remove-project name="platform/packages/apps/SettingsIntelligence"/>
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="conquer"/>
 
