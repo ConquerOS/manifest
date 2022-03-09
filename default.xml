@@ -4,7 +4,7 @@
   <remote  name="caf"
            fetch="https://source.codeaurora.org/quic/la"/>
 
-  <default revision="refs/tags/LA.QSSI.12.0.r1-05800.02-qssi.0"
+  <default revision="refs/tags/LA.QSSI.12.0.r1-06400-qssi.0"
            remote="caf"
            sync-c="true"
            sync-j="8"/>
