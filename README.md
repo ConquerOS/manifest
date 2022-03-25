@@ -23,17 +23,17 @@ Now, let's Download conquerOS Source
 
 - Second, initialize conquerOS Source manifest in the directory
 ```
- repo init -u git://github.com/conquerOS/manifest.git -b twelve
+ repo init -u https://github.com/ConquerOS/manifest.git -b twelve
 ```
 
 - Just in case you just want save more space and data, you can use command below
 ```
- repo init --depth=1 -u git://github.com/conquerOS/manifest.git -b twelve
+ repo init --depth=1 -u https://github.com/ConquerOS/manifest.git -b twelve
 ```
 
 - Third, start downloading the conquerOS Source.
 ```
- repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j$(nproc --all)
+ repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
 
 ### Start building
