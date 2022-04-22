@@ -65,6 +65,8 @@
   <remove-project name="platform/hardware/libhardware"/>
   <project path="hardware/libhardware" name="hardware_libhardware" remote="conquer"/>
 
+  <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="conquer"/>
+
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="conquer"/>
 
   <project path="hardware/conquer/interfaces" name="hardware_conquer_interfaces" remote="conquer"/>
