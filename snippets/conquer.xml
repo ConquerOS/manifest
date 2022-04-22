@@ -106,16 +106,10 @@
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="conquer"/>
 
   <!-- sepolicy repos -->
-  <!--<project path="device/conquer/sepolicy" name="device_conquer_sepolicy" remote="conquer"/>
-
+  <project path="device/conquer/sepolicy" name="device_conquer_sepolicy" remote="conquer"/>
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="conquer"/>
-
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="conquer"/>
-
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="conquer"/>-->
-
-  <remove-project name="platform/system/sepolicy"/>
-  <project path="system/sepolicy" name="system_sepolicy" remote="conquer"/>
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="conquer"/>
 
   <!-- system repos -->
   <remove-project name="platform/system/bt"/>
@@ -132,5 +126,8 @@
 
   <remove-project name="platform/system/security"/>
   <project path="system/security" name="system_security" remote="conquer"/>
+
+  <remove-project name="platform/system/sepolicy"/>
+  <project path="system/sepolicy" name="system_sepolicy" remote="conquer"/>
 
 </manifest>
