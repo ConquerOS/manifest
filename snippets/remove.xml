@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- External repos -->
+  <remove-project name="platform/external/wpa_supplicant_8" />
+
   <!-- qcom vendor repos -->
   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/nxp/interfaces/opensource/nfc"/>

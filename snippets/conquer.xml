@@ -49,6 +49,7 @@
   <!-- external repos -->
   <remove-project name="platform/external/json-c"/>
   <project path="external/json-c" name="external_json-c" remote="conquer"/>
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="conquer"/>
 
   <remove-project name="platform/external/tinycompress"/>
   <project path="external/tinycompress" name="external_tinycompress" remote="conquer"/>
@@ -96,6 +97,7 @@
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="conquer"/>
   <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="conquer"/>
   <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="conquer"/>
+  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="conquer"/>
 
   <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth"/>
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="conquer"/>
