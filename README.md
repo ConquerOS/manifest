@@ -1,6 +1,6 @@
 ![conquerOS](https://raw.githubusercontent.com/conquerOS/manifest/twelve/banner.png)
 
-# conquerOS 5.X [![Download conquerOS](https://img.shields.io/sourceforge/dt/conqueros.svg)](https://sourceforge.net/projects/conqueros/files/latest/download)  [![Download conquerOS](https://img.shields.io/sourceforge/dm/conqueros.svg)](https://sourceforge.net/projects/conqueros/files/latest/download)
+# conquerOS Sundew [![Download conquerOS](https://img.shields.io/sourceforge/dt/conqueros.svg)](https://sourceforge.net/projects/conqueros/files/latest/download)  [![Download conquerOS](https://img.shields.io/sourceforge/dm/conqueros.svg)](https://sourceforge.net/projects/conqueros/files/latest/download)
 conquerOS is a simple CAF Based Custom ROM with additional features and UI/UX improvement to give user good experience when using it.
 
 ## Building conquerOS
