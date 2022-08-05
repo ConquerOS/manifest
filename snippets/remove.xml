@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- qcom vendor repos -->
+  <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
   <remove-project name="platform/vendor/nxp/interfaces/opensource/nfc"/>
   <remove-project name="platform/vendor/nxp/opensource/external/libnfc-nci"/>
   <remove-project name="platform/vendor/nxp/opensource/frameworks"/>

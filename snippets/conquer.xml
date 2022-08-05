@@ -14,7 +14,7 @@
            revision="twelve"/>
 
   <!-- build repos -->
-  <remove-project name="platform/build"/>
+  <remove-project name="platform/build_repo"/>
   <project path="build/make" name="build_make" remote="conquer">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
@@ -35,7 +35,6 @@
   <project path="device/qcom/qssi" name="device_qcom_common" remote="conquer"/>
   <project path="vendor/conquer" name="vendor_conquer" remote="conquer"/>
   <project path="vendor/conquerui" name="vendor_conquerui" remote="conquer"/>
-  <project path="vendor/gms" name="vendor_gms" remote="conquer-gitlab" clone-depth="1"/>
 
   <!-- frameworks repos -->
   <remove-project name="platform/frameworks/av"/>
