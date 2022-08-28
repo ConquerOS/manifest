@@ -4,7 +4,7 @@
   <remote  name="clo"
            fetch="https://git.codelinaro.org/clo/la"/>
 
-  <default revision="refs/tags/LA.QSSI.12.0.r1-08300-qssi.0"
+  <default revision="refs/tags/LA.QSSI.12.0.r1-08700-qssi.0"
            remote="clo"
            sync-c="true"
            sync-j="8"/>
