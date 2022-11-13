@@ -1,6 +1,6 @@
 ![conquerOS](https://raw.githubusercontent.com/conquerOS/manifest/twelve/banner.png)
 
-# conquerOS Sundew [![Download conquerOS](https://img.shields.io/sourceforge/dt/conqueros.svg)](https://sourceforge.net/projects/conqueros/files/latest/download)  [![Download conquerOS](https://img.shields.io/sourceforge/dm/conqueros.svg)](https://sourceforge.net/projects/conqueros/files/latest/download)
+# conquerOS Tithonia [![Download conquerOS](https://img.shields.io/sourceforge/dt/conqueros.svg)](https://sourceforge.net/projects/conqueros/files/latest/download)  [![Download conquerOS](https://img.shields.io/sourceforge/dm/conqueros.svg)](https://sourceforge.net/projects/conqueros/files/latest/download)
 conquerOS is a simple CAF Based Custom ROM with additional features and UI/UX improvement to give user good experience when using it.
 
 ## Building conquerOS
@@ -23,12 +23,12 @@ Now, let's Download conquerOS Source
 
 - Second, initialize conquerOS Source manifest in the directory
 ```
- repo init -u https://github.com/ConquerOS/manifest.git -b twelve
+ repo init -u https://github.com/conquerOS/manifest.git -b tithonia
 ```
 
 - Just in case you just want save more space and data, you can use command below
 ```
- repo init --depth=1 -u https://github.com/ConquerOS/manifest.git -b twelve
+ repo init --depth=1 -u https://github.com/conquerOS/manifest.git -b tithonia
 ```
 
 - Third, start downloading the conquerOS Source.

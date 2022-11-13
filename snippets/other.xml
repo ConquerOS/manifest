@@ -4,17 +4,12 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-12.1.0_r8"/>
+           revision="refs/tags/android-13.0.0_r13"/>
 
   <remote  name="github"
            fetch="https://github.com/"/>
 
-  <!-- external repos -->
-  <project path="external/colorkt" name="ProtonAOSP/android_external_colorkt" remote="github" revision="sc"/>
-  <project path="external/themelib" name="ProtonAOSP/android_external_themelib" remote="github" revision="sc"/>
-
   <!-- hardware repos -->
-  <project path="hardware/google/pixel" name="platform/hardware/google/pixel" remote="aosp"/>
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="aosp" revision="refs/tags/android-11.0.0_r46"/>
 
 </manifest>

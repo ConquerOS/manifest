@@ -20,8 +20,8 @@
   <remove-project name="platform/external/json-c"/>
   <remove-project name="platform/external/tinycompress"/>
   <remove-project name="platform/external/wpa_supplicant_8" />
-
-  <!-- General repos -->
+  
+    <!-- General repos -->
   <remove-project name="platform/bionic"/>
   <remove-project name="platform/bootable/recovery"/>
 
@@ -45,20 +45,19 @@
   <remove-project name="platform/vendor/qcom-opensource/core-utils"/>
   <remove-project name="platform/vendor/qcom-opensource/core-utils-sys"/>
   <remove-project name="platform/vendor/qcom/opensource/commonsys-intf/audio"/>
+  <remove-project name="platform/vendor/qcom-opensource/cryptfs_hw"/>
   <remove-project name="platform/vendor/qcom-opensource/dataservices-commonsys"/>
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf"/>
   <remove-project name="platform/vendor/qcom-opensource/display-commonsys"/>
   <remove-project name="platform/vendor/qcom-opensource/fm-commonsys"/>
-  <remove-project name="platform/vendor/qcom-opensource/packages/apps/Bluetooth"/>
-  <remove-project name="platform/vendor/qcom-opensource/system/bt"/>
   <remove-project name="platform/vendor/qcom-opensource/interfaces"/>
+  <remove-project name="platform/vendor/qcom/opensource/commonsys/wifi"/>
 
   <!-- System repos -->
-  <remove-project name="platform/system/bt"/>
   <remove-project name="platform/system/core"/>
-  <remove-project name="platform/system/logging"/>
+  <remove-project name="platform/system/libhidl"/>
+  <remove-project name="platform/system/netd"/>
   <remove-project name="platform/system/vold"/>
-  <remove-project name="platform/system/security"/>
   <remove-project name="platform/system/sepolicy"/>
 
 </manifest>
