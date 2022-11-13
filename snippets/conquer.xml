@@ -74,6 +74,7 @@
   <!-- conquer repos -->
   <project path="vendor/conquer" name="vendor_conquer" remote="conquer"/>
   <project path="vendor/conquerui" name="vendor_conquerui" remote="conquer"/>
+  <project path="vendor/gms" name="vendor_gms" remote="conquer-gitlab" clone-depth="1"/>
 
   <!-- QCOM Vendor repos -->
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="conquer" />
