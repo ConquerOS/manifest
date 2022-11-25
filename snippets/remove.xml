@@ -21,7 +21,7 @@
   <remove-project name="platform/external/tinycompress"/>
   <remove-project name="platform/external/wpa_supplicant_8" />
   
-    <!-- General repos -->
+  <!-- General repos -->
   <remove-project name="platform/bionic"/>
   <remove-project name="platform/bootable/recovery"/>
 
@@ -54,6 +54,7 @@
   <remove-project name="platform/vendor/qcom/opensource/commonsys/wifi"/>
 
   <!-- System repos -->
+  <remove-project name="platform/system/bpf"/>
   <remove-project name="platform/system/core"/>
   <remove-project name="platform/system/libhidl"/>
   <remove-project name="platform/system/netd"/>

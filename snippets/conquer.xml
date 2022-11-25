@@ -65,6 +65,7 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="conquer"/>
 
   <!-- system repos -->
+  <project path="system/bpf" name="system_bpf" remote="conquer"/>
   <project path="system/core" name="system_core" remote="conquer"/>
   <project path="system/libhidl" name="system_libhidl" remote="conquer"/>
   <project path="system/netd" name="system_netd" remote="conquer"/>
@@ -77,6 +78,7 @@
   <project path="vendor/gms" name="vendor_gms" remote="conquer-gitlab" clone-depth="1"/>
 
   <!-- QCOM Vendor repos -->
+  <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="conquer"/>
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="conquer" />
   <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="conquer" />
   <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="conquer" />

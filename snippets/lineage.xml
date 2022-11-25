@@ -65,7 +65,6 @@
   <project path="prebuilts/tools-conquer" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1"/>
 
   <!-- vendor repos -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" groups="qcom,qssi" />
   <remove-project name="platform/vendor/qcom-opensource/audio"/>
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" groups="qcom,qssi" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="lineage" groups="qcom,lahaina" />
