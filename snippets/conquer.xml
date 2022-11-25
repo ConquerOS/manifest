@@ -51,9 +51,64 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="conquer"/>
 
   <!-- hardware repos -->
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="conquer"/>
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="conquer"/>
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="conquer"/> 
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="conquer"/>
+
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="conquer">
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150-common/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150-common/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250-common/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250-common/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="conquer" />
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="conquer" />
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="conquer" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="conquer" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="conquer" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="conquer" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom-caf_sdm845_audio" remote="conquer" />
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom-caf_sdm845_display" remote="conquer" />
+  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom-caf_sdm845_media" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_sm8150_audio" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_sm8150_display" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8250-common/audio" name="hardware_qcom-caf_sm8250-common_audio" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8250-common/display" name="hardware_qcom-caf_sm8250-common_display" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8250-common/gps" name="hardware_qcom-caf_sm8250-common_gps" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8250-common/media" name="hardware_qcom-caf_sm8250-common_media" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_sm8350_audio" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_sm8350_display" remote="conquer" />
+  <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_sm8350_media" remote="conquer" />
+  <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" remote="conquer"/>
+  <project path="hardware/qcom-caf/thermal" name="hardware_qcom-caf_thermal" remote="conquer"/>
+  <project path="hardware/qcom-caf/vr" name="hardware_qcom-caf_vr" remote="conquer"/>
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="conquer"/>
+
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="conquer"/>
   <project path="hardware/conquer/interfaces" name="hardware_conquer_interfaces" remote="conquer"/>
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="conquer"/>
 
@@ -80,16 +135,37 @@
   <project path="vendor/conquerui" name="vendor_conquerui" remote="conquer"/>
   <project path="vendor/gms" name="vendor_gms" remote="conquer-gitlab" clone-depth="1"/>
 
+  <!-- Vendor repos - NXP -->
+  <project path="vendor/nxp/nfc" name="vendor_nxp_nfc" remote="conquer" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_opensource_interfaces_nfc" remote="conquer" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_commonsys_external_libnfc-nci" remote="conquer" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_commonsys_frameworks" remote="conquer" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_commonsys_packages_apps_Nfc" remote="conquer" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="vendor_nxp_opensource_pn5xx_halimpl" remote="conquer" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="vendor_nxp_opensource_pn5xx_hidlimpl" remote="conquer" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_sn100x_halimpl" remote="conquer" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="vendor_nxp_opensource_sn100x_hidlimpl" remote="conquer" />
+  <project path="vendor/nxp/secure_element" name="vendor_nxp_secure_element" remote="conquer" />
+  <project path="vendor/nxp/secure_element_extns" name="vendor_nxp_secure_element_extns" remote="conquer" />
+
   <!-- QCOM Vendor repos -->
   <project path="vendor/codeaurora/commonsys/telephony" name="vendor_codeaurora_commonsys_telephony" remote="conquer"/>
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="conquer" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" remote="conquer" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="conquer" />
   <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="conquer" />
-  <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="conquer" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="conquer" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="vendor_qcom_opensource_data-ipa-cfg-mgr-legacy-um" remote="conquer" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="conquer" />
+  <project path="vendor/qcom/opensource/display" name="vendor_qcom_opensource_display" remote="conquer" />
+  <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="conquer" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="conquer" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="vendor_qcom_opensource_healthd-ext" remote="conquer" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="conquer" />
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="conquer" />
   <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="conquer" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="conquer" />
+  <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="conquer" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="conquer" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" remote="conquer" />
 
 </manifest>
