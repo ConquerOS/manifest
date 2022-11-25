@@ -43,6 +43,7 @@
   <!-- external repos -->
   <project path="external/faceunlock" name="external_faceunlock" remote="conquer-gitlab" />
   <project path="external/json-c" name="external_json-c" remote="conquer"/>
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="conquer"/>
   <project path="external/tinycompress" name="external_tinycompress" remote="conquer"/>
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="conquer"/>
 
@@ -110,6 +111,8 @@
 
   <project path="hardware/libhardware" name="hardware_libhardware" remote="conquer"/>
   <project path="hardware/conquer/interfaces" name="hardware_conquer_interfaces" remote="conquer"/>
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="conquer"/>
+  <project path="hardware/nxp/secure_element" name="hardware_nxp_secure_element" remote="conquer"/>
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="conquer"/>
 
   <!-- packages/apps repos -->
