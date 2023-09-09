@@ -10,7 +10,7 @@ Before start to compiling conquerOS for your own device, you need to complete so
 - 16GB RAM (Swap can be helpful)
 - Quadcore Processor
 - 300GB Free Disk Space (Recommended to use SSD)
-- Internet conncection
+- Internet connection
 
 ### Download conquerOS Source
 Now, let's Download conquerOS Source
